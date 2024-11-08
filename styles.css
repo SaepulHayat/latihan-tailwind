@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'font-all-default';
+    src: url('./fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'font-logo';
+    src: url('./fonts/Pacifico/Pacifico-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    color: #4b0082;
+}
+
+@font-face {
+    font-family: 'font-content1';
+    src: url('./fonts/Rubik_Scribble/RubikScribble-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'font-all-default2';
+    src: url('fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background: linear-gradient(to bottom, #24f815 20%, #4b0082 50%, #24f815 100%);
+    border: 2px solid red;
+    font-family: "font-all-default", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+}
+header{
+    background: linear-gradient(to bottom, #24f815 0%, #340556 50%, #20ff11 100%);
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-right: 70px;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-left: 15px;
+
+}
+
+header nav ul li a {
+    background-color: rgba(83, 33, 190, 0.2);
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+
+header nav ul li a:hover {
+    background-color: #24f815;
+    color: #040804;
+    font-weight: 500;
+    transition: 0.5s;
+    box-shadow: 0 0 10px #24f815;
+}
+
+.font-logo{
+    font-family: "font-logo", sans-serif
+}
+
+/* hero style section  */
+/* Hero Section Background */
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    min-height: 60vh;
+    overflow: hidden;
+    text-align: left;
+}
+
+.hero-item{
+    text-align: left;
+}
+
+/* Heading Styles */
+.hero-heading {
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0.8, 0.4);
+}
+
+.hero-text {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #24f815;
+    color: #000000;
+    box-shadow: 0 0 10px #24f815;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 8px 18px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #000000;
+    color: #24f815;
+    transition: 0.7s ease;
+}
+
+/* Social Media Icons Styling */
+.scm-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+    border: 2px solid #24f815;
+    border-radius: 50%;
+    
+    color: #24f815;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.scm-icon:hover {
+    background-color: #24f815;
+    color: #000000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.typing {
+    color: white;
+    display: inline-block;
+    /* Membuat lebar elemen sesuai teks saja */
+    border-right: 4px solid white;
+    /* Kursor berkedip */
+    overflow: hidden;
+    white-space: nowrap;
+    /* Menghindari teks terputus ke baris baru */
+    font-family: monospace;
+    animation: typing 3s steps(20, end) forwards, blink 0.8s steps(2, start) infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: white;
+    }
+}
+
