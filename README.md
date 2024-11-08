@@ -10,7 +10,7 @@ Selamat datang di portfolio **Saepul Hayat**, seorang frontend developer yang fo
 ---
 ## Tautan Website
 Kunjungi website yang sudah di deploy melalui tautan berikut:
-[Website Saepul Hayat](https://saepulhayat.github.io/Deploy-Latihan/)
+[Website Saepul Hayat](https://saepulhayat.github.io/latihan-tailwind/)
 
 ---
 
